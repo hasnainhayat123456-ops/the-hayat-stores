@@ -1,0 +1,226 @@
+/* ===== Navbar ===== */
+.navbar {
+  background-color: #000 !important; /* Black background */
+  border-bottom: 2px solid #d4af37 !important; /* Gold bottom border */
+  padding: 1rem 0 !important;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #d4af37 !important; /* Gold text */
+}
+
+.navbar-brand img {
+  width: 45px;
+  height: 45px;
+}
+
+.navbar .ms-auto span {
+  color: #d4af37;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.navbar .ms-auto a {
+  color: #d4af37;
+  font-size: 1.25rem;
+}
+
+.navbar .ms-auto a:hover {
+  color: #fff;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  height: auto; /* automatically adjust according to content */
+  min-height: 50vh; /* minimum height to keep hero visible */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 0; /* minimal top-bottom spacing */
+}
+
+.hero h1 {
+  font-weight: bold;
+  color: #d4af37; /* Gold */
+  margin-bottom: 0.5rem; /* gap with paragraph reduced */
+}
+
+.hero p {
+  color: #ccc; /* light gray */
+  margin-bottom: 0.5rem; /* gap with button reduced */
+}
+
+.hero .btn-warning {
+  background-color: #d4af37;
+  color: #000; /* Black text */
+  border: none;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+}
+
+.hero .btn-warning:hover {
+  background-color: #b9962b;
+  color: #000;
+}
+
+/* ===== About Section ===== */
+.about {
+  background-color: #000;
+  padding: 0; /* gap completely removed */
+  text-align: center;
+}
+
+.about h2 {
+  color: #d4af37;
+  margin: 0.5rem 0 0; /* heading ke top margin minimal */
+}
+
+.about p {
+  color: #aaa;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #000;
+  border-top: 2px solid #d4af37;
+  color: #aaa;
+  padding: 1rem 0;
+  text-align: center;
+}
+ /* ===== Navbar (Black-Gold Theme) ===== */
+    .navbar {
+      background-color: #000 !important;
+      border-bottom: 2px solid #d4af37 !important;
+      padding: 1rem 0;
+    }
+
+    .navbar-brand {
+      color: #d4af37 !important;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .navbar-nav .nav-link {
+      color: #d4af37 !important;
+      margin: 0 10px;
+      transition: 0.3s;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #fff !important;
+      text-shadow: 0 0 5px #d4af37;
+    }
+
+    .dropdown-menu {
+      background-color: #000 !important;
+      border: 1px solid #d4af37;
+      border-radius: 0;
+    }
+
+    .dropdown-item {
+      color: #d4af37 !important;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .dropdown-item:hover {
+      background-color: #d4af37 !important;
+      color: #000 !important;
+    }
+
+    .form-control {
+      background-color: #111 !important;
+      border: 1px solid #d4af37 !important;
+      color: #fff !important;
+    }
+
+    .form-control::placeholder {
+      color: #bbb !important;
+    }
+
+    .btn-outline-warning {
+      border-color: #d4af37 !important;
+      color: #d4af37 !important;
+      transition: 0.3s;
+    }
+
+    .btn-outline-warning:hover {
+      background-color: #d4af37 !important;
+      color: #000 !important;
+    }
+
+    .navbar .bi {
+      transition: 0.3s;
+    }
+
+    .navbar .bi:hover {
+      color: #fff;
+      transform: scale(1.2);
+    }
+
+
+
+
+
+
+     #heroCarousel img {
+    height: 65vh; /* 🔹 Height reduced */
+    object-fit: cover;
+    filter: brightness(60%);
+  }
+
+  .carousel-caption {
+    bottom: 25%;
+  }
+
+  .carousel-caption h1 {
+    text-shadow: 0 0 10px #000;
+    font-size: 2.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.1rem;
+    text-shadow: 0 0 5px #000;
+  }
+
+  .carousel-caption .btn-warning {
+    background-color: #d4af37;
+    border: none;
+    transition: 0.3s;
+  }
+
+  .carousel-caption .btn-warning:hover {
+    background-color: #b8962d;
+    color: #fff;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: #d4af37;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(85%) sepia(90%) saturate(400%) hue-rotate(10deg);
+  }
+
+  @media (max-width: 768px) {
+    #heroCarousel img {
+      height: 50vh; /* smaller height for mobile */
+    }
+    .carousel-caption h1 {
+      font-size: 1.8rem;
+    }
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+  }
